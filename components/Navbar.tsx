@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="container">
           <span>📍 Woodley Estate, Nairobi, Kenya</span>
           <div className="navbar-top-links">
-            <a href="tel:+254722407837">📞 +254 722 407 837</a>
+            <a href="tel:+254728411547">📞 +254 728 411 547</a>
             <span className="nb-sep">|</span>
             <a href="mailto:info@chriscoeducationalcentre.ac.ke">✉ Say Hello</a>
             <span className="nb-sep">|</span>
@@ -161,7 +161,7 @@ export default function Navbar() {
                     </span>
                   </Link>
                   <div className="dropdown-divider" />
-                  <a href="https://wa.me/254722407837" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/254728411547" target="_blank" rel="noopener noreferrer">
                     <span className="dd-icon">💬</span>
                     <span className="dd-text">
                       <strong>WhatsApp Us</strong>
@@ -257,11 +257,11 @@ export default function Navbar() {
             <div className="drawer-contact">
               <div className="drawer-contact-row">
                 <span>📞</span>
-                <a href="tel:+254722407837">+254 722 407 837</a>
+                <a href="tel:+254728411547">+254 728 411 547</a>
               </div>
               <div className="drawer-contact-row">
                 <span>💬</span>
-                <a href="https://wa.me/254722407837" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+                <a href="https://wa.me/254728411547" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
               </div>
               <div className="drawer-contact-row">
                 <span>📍</span>

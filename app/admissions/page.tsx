@@ -59,11 +59,11 @@ export default function Page() {
             </div>
 
             <div className="mt-2" style={{display: 'flex', flexDirection: 'column', gap: '0.75rem'}}>
-              <a href="https://wa.me/254722407837?text=Hello%2C+I+would+like+to+enquire+about+admission+to+Chrisco+Educational+Centre" target="_blank" rel="noopener" className="contact-quickbtn" style={{background: 'var(--grass-dark)'}}>
+              <a href="https://wa.me/254728411547?text=Hello%2C+I+would+like+to+enquire+about+admission+to+Chrisco+Educational+Centre" target="_blank" rel="noopener" className="contact-quickbtn" style={{background: 'var(--grass-dark)'}}>
                 <span style={{fontSize: '1.3rem'}}>💬</span> Enquire on WhatsApp
               </a>
-              <a href="tel:+254722407837" className="contact-quickbtn" style={{background: 'var(--plum)'}}>
-                <span style={{fontSize: '1.3rem'}}>📞</span> Call Us: +254 722 407 837
+              <a href="tel:+254728411547" className="contact-quickbtn" style={{background: 'var(--plum)'}}>
+                <span style={{fontSize: '1.3rem'}}>📞</span> Call Us: +254 728 411 547
               </a>
             </div>
           </div>
@@ -130,8 +130,8 @@ export default function Page() {
               <p style={{background: 'rgba(255,255,255,0.94)', color: 'var(--plum)', borderRadius: 'var(--radius-sm)', padding: '0.7rem 0.9rem'}} className="mb-1">Our fee structure is designed to be fair and accessible, reflecting the quality of education and facilities we offer.</p>
               <p style={{background: 'rgba(255,255,255,0.85)', color: 'var(--plum)', borderRadius: 'var(--radius-sm)', padding: '0.6rem 0.9rem', fontSize: '0.85rem'}}>For a full fee breakdown covering tuition, activities and other costs, please contact our admissions office directly.</p>
               <div className="mt-1" style={{display: 'flex', gap: '0.7rem', flexWrap: 'wrap'}}>
-                <a href="tel:+254722407837" className="btn btn-sun btn-sm">📞 Call for Fees</a>
-                <a href="https://wa.me/254722407837" target="_blank" rel="noopener" className="btn btn-outline-light btn-sm">💬 WhatsApp Us</a>
+                <a href="tel:+254728411547" className="btn btn-sun btn-sm">📞 Call for Fees</a>
+                <a href="https://wa.me/254728411547" target="_blank" rel="noopener" className="btn btn-outline-light btn-sm">💬 WhatsApp Us</a>
               </div>
             </div>
 

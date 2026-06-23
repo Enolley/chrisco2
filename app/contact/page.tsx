@@ -27,13 +27,13 @@ export default function Page() {
             <div className="cc-icon badge-sun">📞</div>
             <h4>Call Us</h4>
             <p>Our admissions team is happy to answer your questions during school hours.</p>
-            <a href="tel:+254722407837" className="cc-link">+254 722 407 837</a>
+            <a href="tel:+254728411547" className="cc-link">+254 728 411 547</a>
           </div>
           <div className="contact-card reveal">
             <div className="cc-icon badge-grass">💬</div>
             <h4>WhatsApp</h4>
             <p>The fastest way to reach us. Chat with our team right away.</p>
-            <a href="https://wa.me/254722407837?text=Hello%2C+I%27d+like+to+enquire+about+Chrisco+Educational+Centre" target="_blank" rel="noopener" className="cc-link">Chat on WhatsApp</a>
+            <a href="https://wa.me/254728411547?text=Hello%2C+I%27d+like+to+enquire+about+Chrisco+Educational+Centre" target="_blank" rel="noopener" className="cc-link">Chat on WhatsApp</a>
           </div>
           <div className="contact-card reveal">
             <div className="cc-icon badge-coral">✉️</div>
@@ -79,7 +79,7 @@ export default function Page() {
 
             <div className="social-row">
               <a href="#" className="social-btn" style={{background: '#1877f2', color: 'white', borderColor: 'var(--plum)'}}><span>f</span> Facebook</a>
-              <a href="https://wa.me/254722407837" target="_blank" rel="noopener" className="social-btn" style={{background: 'var(--grass-dark)', color: 'white', borderColor: 'var(--plum)'}}><span>💬</span> WhatsApp</a>
+              <a href="https://wa.me/254728411547" target="_blank" rel="noopener" className="social-btn" style={{background: 'var(--grass-dark)', color: 'white', borderColor: 'var(--plum)'}}><span>💬</span> WhatsApp</a>
               <a href="#" className="social-btn" style={{background: 'var(--plum)', color: 'white'}}><span>𝕏</span> Twitter/X</a>
             </div>
           </div>
@@ -104,8 +104,8 @@ export default function Page() {
             <p style={{opacity: '0.85'}}>The best way to experience Chrisco is to walk our halls, meet our teachers, and see our students having fun while they learn. We welcome visits every school day — just call or message to arrange a time.</p>
           </div>
           <div className="reveal" style={{display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'flex-start'}}>
-            <a href="https://wa.me/254722407837?text=Hello%2C+I+would+like+to+book+a+school+tour+at+Chrisco+Educational+Centre" target="_blank" rel="noopener" className="btn" style={{background: '#25D366', color: 'white', fontSize: '1rem', padding: '1rem 2rem'}}>💬 Book via WhatsApp</a>
-            <a href="tel:+254722407837" className="btn btn-outline-light" style={{fontSize: '1rem', padding: '1rem 2rem'}}>📞 Call to Book a Visit</a>
+            <a href="https://wa.me/254728411547?text=Hello%2C+I+would+like+to+book+a+school+tour+at+Chrisco+Educational+Centre" target="_blank" rel="noopener" className="btn" style={{background: '#25D366', color: 'white', fontSize: '1rem', padding: '1rem 2rem'}}>💬 Book via WhatsApp</a>
+            <a href="tel:+254728411547" className="btn btn-outline-light" style={{fontSize: '1rem', padding: '1rem 2rem'}}>📞 Call to Book a Visit</a>
             <p style={{opacity: '0.6', fontSize: '0.82rem'}}>Tours available Mon–Fri, 9:00 AM – 3:00 PM</p>
           </div>
         </div>

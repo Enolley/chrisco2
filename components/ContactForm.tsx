@@ -82,7 +82,7 @@ export default function ContactForm() {
           <p className="text-center" style={{ fontSize: "0.8rem", opacity: 0.7 }}>
             Or reach us directly:{" "}
             <a
-              href="https://wa.me/254722407837"
+              href="https://wa.me/254728411547"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "var(--grass-dark)", fontWeight: 700 }}
@@ -90,7 +90,7 @@ export default function ContactForm() {
               💬 WhatsApp
             </a>{" "}
             ·{" "}
-            <a href="tel:+254722407837" style={{ color: "var(--sky-dark)", fontWeight: 700 }}>
+            <a href="tel:+254728411547" style={{ color: "var(--sky-dark)", fontWeight: 700 }}>
               📞 Call
             </a>
           </p>

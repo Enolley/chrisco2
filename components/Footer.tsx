@@ -49,7 +49,7 @@ export default function Footer() {
               </div>
               <div className="footer-contact-item">
                 <span>📞</span>
-                <a href="tel:+254722407837">+254 722 407 837</a>
+                <a href="tel:+254728411547">+254 728 411 547</a>
               </div>
               <div className="footer-contact-item">
                 <span>✉</span>
@@ -62,7 +62,7 @@ export default function Footer() {
               <div className="footer-social" style={{ marginTop: "1rem" }}>
                 <a href="#" title="Facebook" aria-label="Facebook">f</a>
                 <a href="#" title="Twitter/X" aria-label="Twitter">𝕏</a>
-                <a href="https://wa.me/254722407837" title="WhatsApp" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">W</a>
+                <a href="https://wa.me/254728411547" title="WhatsApp" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">W</a>
               </div>
             </div>
           </div>
