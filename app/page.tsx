@@ -76,11 +76,11 @@ export default function Page() {
       <div className="container">
         <div className="grid-4">
           <div className="sticker-card text-center reveal">
-            <strong style={{fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--sky-dark)'}}><span data-count="20" data-suffix="+">0+</span></strong>
+            <strong style={{fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--sky-dark)'}}><span data-count="32" data-suffix="+">0+</span></strong>
             <p style={{fontWeight: '700', marginTop: '0.3rem'}}>Years of Happy Learning</p>
           </div>
           <div className="sticker-card text-center reveal">
-            <strong style={{fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--coral-dark)'}}><span data-count="600" data-suffix="+">0+</span></strong>
+            <strong style={{fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--coral-dark)'}}><span data-count="800" data-suffix="+">0+</span></strong>
             <p style={{fontWeight: '700', marginTop: '0.3rem'}}>Smiling Students</p>
           </div>
           <div className="sticker-card text-center reveal">
