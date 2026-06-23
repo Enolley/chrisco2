@@ -211,7 +211,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .navbar-inner { display: flex; align-items: center; justify-content: space-between; padding: 0.7rem 0; gap: 1rem; }
 
 .navbar-logo { display: flex; align-items: center; gap: 0.7rem; flex-shrink: 0; }
-.navbar-logo img { height: 52px; width: 52px; border-radius: 50%; border: 3px solid var(--sun); }
+.navbar-logo img { height: 52px; width: 52px; border-radius: 50%;}
 .navbar-logo-text strong { display: block; font-family: var(--font-display); font-size: 1.05rem; color: var(--plum); line-height: 1.1; }
 .navbar-logo-text span { display: block; font-size: 0.74rem; color: var(--coral-dark); font-weight: 700; }
 
@@ -411,7 +411,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .footer { background: var(--plum); color: rgba(255,255,255,0.85); }
 .footer-main { padding: 3.5rem 0 2.5rem; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 2rem; }
-.footer-brand img { height: 56px; width: 56px; border-radius: 50%; border: 3px solid var(--sun); margin-bottom: 0.8rem; }
+.footer-brand img { height: 56px; width: 56px; border-radius: 50%; margin-bottom: 0.8rem; }
 .footer-brand p { font-size: 0.88rem; opacity: 0.8; margin-bottom: 0.8rem; }
 .footer-motto { font-family: var(--font-display); color: var(--sun); font-size: 0.95rem; }
 .footer-col h5 { font-family: var(--font-display); color: var(--paper-white); font-size: 0.95rem; margin-bottom: 1rem; }
