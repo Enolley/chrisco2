@@ -25,16 +25,17 @@ export default function Page() {
           <div className="reveal">
             <span className="eyebrow">📖 Our Story</span>
             <h2 className="section-heading">Built on Faith,<br />Filled with <span className="squiggle text-coral">Joy</span></h2>
-            <p className="mb-1">Chrisco Educational Centre started with one simple belief: every child, no matter their background, deserves a happy, high-quality education built on strong values and guided by faith.</p>
-            <p className="mb-1">Tucked into the heart of Woodley, Nairobi, our school has grown from a small learning centre into a lively community serving hundreds of families. Through every year of growth, what matters most to us has never changed.</p>
-            <p>Education isn't just about facts and figures — it's about shaping kind, curious, confident children who are excited to discover the world around them.</p>
+            <p className="mb-1">Chrisco Educational Centre was founded way back in 1990 by Pastor Jeremiah Mugala (Chrisco Central Church Nairobi) as a feeding programme for children from disadvantaged backgrounds from Kibera Slums. The programme thrived owing to the fact that children could be taught the word of God, alongside mentorship activities that were being offered by Chrisco Central Church.</p>
+            <p className="mb-1">By early 1991 what had been a feeding programme for about one year attracted so many children from Kibera and the community around. This led to the tremendous growth of a kindergarten school in 1991.</p>
+            <p className="mb-1">The kindergarten school ran for ten years then led to the establishment of a primary school in 2001. With the proper foundation, character development and impressive academic scores, the school grew very fast and in the year 2009, Chrisco Educational Centre became a full-fledged school and had its first registration with the Ministry of Education in 2013.</p>
+            <p>The hard work put in studies by the teachers and children was replicated for the first time in 2012 when our school produced the best candidate in KCPE examinations in Kibra Sub-County.</p>
           </div>
           <div className="reveal">
             <div className="sticker-card" style={{background: 'var(--sky-dark)', borderColor: 'var(--plum)'}}>
               <div className="mb-2">
                 <div style={{fontSize: '2.6rem', marginBottom: '0.5rem'}}>📜</div>
                 <h3 style={{color: 'var(--paper-white)'}}>Founded</h3>
-                <p style={{background: 'rgba(255,255,255,0.94)', color: 'var(--plum)', borderRadius: 'var(--radius-sm)', padding: '0.7rem 0.9rem', marginTop: '0.5rem'}}>Over two decades ago, right here in Woodley, Nairobi — with a big dream of joyful, values-led education for every child.</p>
+                <p style={{background: 'rgba(255,255,255,0.94)', color: 'var(--plum)', borderRadius: 'var(--radius-sm)', padding: '0.7rem 0.9rem', marginTop: '0.5rem'}}>Over three decades ago, right here in Woodley, Nairobi — with a big dream of joyful, values-led education for every child.</p>
               </div>
               <div className="mb-2">
                 <div style={{fontSize: '2.6rem', marginBottom: '0.5rem'}}>🌍</div>
@@ -63,42 +64,45 @@ export default function Page() {
           <div className="sticker-card text-center reveal" style={{background: 'var(--sky-dark)'}}>
             <div style={{fontSize: '2.4rem', marginBottom: '0.8rem'}}>👁️</div>
             <h3 style={{color: 'var(--paper-white)', marginBottom: '0.8rem'}}>Our Vision</h3>
-            <p style={{background: 'rgba(255,255,255,0.94)', color: 'var(--plum)', borderRadius: 'var(--radius-sm)', padding: '0.8rem 1rem', fontSize: '0.94rem'}}>To be Nairobi's most loved faith-centred school — raising confident, kind, high-achieving children ready to lead Kenya's future.</p>
+            <p style={{background: 'rgba(255,255,255,0.94)', color: 'var(--plum)', borderRadius: 'var(--radius-sm)', padding: '0.8rem 1rem', fontSize: '0.94rem'}}>&quot;Foundation For Success&quot;</p>
           </div>
           <div className="sticker-card text-center reveal" style={{background: 'var(--coral-dark)'}}>
             <div style={{fontSize: '2.4rem', marginBottom: '0.8rem'}}>🎯</div>
             <h3 style={{color: 'var(--paper-white)', marginBottom: '0.8rem'}}>Our Mission</h3>
-            <p style={{background: 'rgba(255,255,255,0.94)', color: 'var(--plum)', borderRadius: 'var(--radius-sm)', padding: '0.8rem 1rem', fontSize: '0.94rem'}}>To give every child a happy, nurturing place to learn — where they are known, valued, and supported to grow academically, socially and spiritually.</p>
+            <div  style={{background: 'rgba(255,255,255,0.94)', color: 'var(--plum)', borderRadius: 'var(--radius-sm)', padding: '0.8rem 1rem', fontSize: '0.94rem'}}>
+              <p style={{}}>Meet The Needs Of The Total Man:</p>
+                  <ul style={{ paddingLeft: "1.2rem", marginBottom: "0.5rem" }}>
+                  <li>Mentally</li>
+                  <li>Physically</li>
+                  <li>Socially</li>
+                  <li>Spiritually</li>
+                </ul>
+            </div>
           </div>
           <div className="sticker-card text-center reveal" style={{background: 'var(--sun)'}}>
             <div style={{fontSize: '2.4rem', marginBottom: '0.8rem'}}>⚓</div>
             <h3 style={{marginBottom: '0.8rem'}}>Our Motto</h3>
             <p style={{fontFamily: 'var(--font-display)', fontSize: '1.15rem', fontWeight: '700', marginBottom: '0.6rem'}}>"Foundation for Success"</p>
-            <p style={{fontSize: '0.88rem', opacity: '0.85'}}>Everything we do builds a strong, happy foundation for every child's lifelong journey.</p>
+            <p style={{fontSize: '0.88rem', opacity: '0.85'}}>Everything we do is designed to lay a strong, lasting foundation for every student&apos;s lifelong journey of success.</p>
           </div>
         </div>
 
         <h3 className="text-center mb-2 reveal" id="values">Our Core Values</h3>
-        <div className="grid-4">
+        <div className="grid-3">
           <div className="value-blob reveal">
             <div className="blob-icon badge-sky">💛</div>
-            <h4>Faith</h4>
-            <p style={{fontSize: '0.88rem', opacity: '0.8'}}>Grounded in values that shape good character and good choices.</p>
+            <h4>Glorifying God</h4>
+            <p style={{fontSize: '0.88rem', opacity: '0.8'}}>Grounded in Christian values that shape character and guide decision-making.</p>
           </div>
           <div className="value-blob reveal">
             <div className="blob-icon badge-sun">⚡</div>
             <h4>Excellence</h4>
-            <p style={{fontSize: '0.88rem', opacity: '0.8'}}>Always trying our best and celebrating every step of progress.</p>
+            <p style={{fontSize: '0.88rem', opacity: '0.8'}}>An unwavering commitment to the highest standards in everything we do.</p>
           </div>
           <div className="value-blob reveal">
             <div className="blob-icon badge-grass">🤝</div>
-            <h4>Integrity</h4>
-            <p style={{fontSize: '0.88rem', opacity: '0.8'}}>Being honest and doing the right thing, even when no one's watching.</p>
-          </div>
-          <div className="value-blob reveal">
-            <div className="blob-icon badge-coral">💕</div>
-            <h4>Compassion</h4>
-            <p style={{fontSize: '0.88rem', opacity: '0.8'}}>Caring genuinely for every student, family and friend.</p>
+            <h4>Discipline</h4>
+            <p style={{fontSize: '0.88rem', opacity: '0.8'}}>Honesty, transparency and doing right — even when no one is watching.</p>
           </div>
         </div>
       </div>
@@ -115,11 +119,13 @@ export default function Page() {
           </div>
           <div className="reveal">
             <span className="eyebrow">✉️ From the Principal's Desk</span>
-            <h2 className="section-heading">A Message of <span className="squiggle text-coral">Welcome</span></h2>
-            <p className="mb-1" style={{fontStyle: 'italic', fontSize: '1.02rem', borderLeft: '4px solid var(--sun)', paddingLeft: '1rem'}}>"At Chrisco, we believe education is the greatest gift we can give a child — not just facts, but character, courage and compassion."</p>
-            <p className="mb-1">Welcome to Chrisco Educational Centre! Whether you're already part of our family or just getting to know us, we're so glad you're here. Ours is a school where every child matters, every teacher truly cares, and every day brings something new to discover.</p>
-            <p>Come visit us — walk through our classrooms, meet our teachers, and see the joyful environment we've built together. We'd love to welcome your family into ours.</p>
-            <div className="mt-2" style={{fontFamily: 'var(--font-display)', fontSize: '1.1rem', fontStyle: 'italic'}}>— The Principal</div>
+            <h2 className="section-heading">Welcome to <span className="squiggle text-coral">Chrisco Educational Centre</span></h2>
+            <p className="mb-1" style={{fontStyle: 'italic', fontSize: '1.02rem', borderLeft: '4px solid var(--sun)', paddingLeft: '1rem'}}>&quot;I am honoured to lead a school community rooted in faith, academic excellence and talent development. At Chrisco, we believe every learner is created with a purpose — to excel in class, on the field, on stage and in character. This is basically rooted in our Motto: <strong>&quot;Foundation for Success&quot;</strong>&quot; </p>
+            <p className="mb-1">As a faith based institution, spiritual growth and mentorship are at the heart of everything we do. We nurture minds, build character and raise students who serve God and the community with integrity.</p>
+            <p className="mb-1">Our school has consistently posted impressive results in national exams ever since 2009. We have enjoyed and celebrated the advantage of producing top candidates not only in our sub-county but also nationwide.</p>
+            <p className="mb-1">Beyond academics, we remain strong and we have consistently shone as Sub County champions in girls’ basketball, and we thrive in drama, music, athletics and other ball games because we know that discipline in books and on the field builds a winner’s life.</p>
+            <p style={{fontStyle: "italic"}}>I invite you, parents and visitors to partner with us. Together, we will unlock potential and shape responsible, God-fearing learners for Kenya and beyond.</p>
+            <div className="mt-2" style={{fontFamily: 'var(--font-display)', fontSize: '1.1rem', fontStyle: 'italic'}}>— Maurice Kutswa, The Principal</div>
           </div>
         </div>
       </div>
@@ -168,22 +174,22 @@ export default function Page() {
           <div className="sticker-card reveal" style={{display: 'flex', gap: '1rem', alignItems: 'flex-start'}}>
             <div style={{fontSize: '2.2rem', flexShrink: '0'}}>🏅</div>
             <div>
-              <h4>Best School in Woodley</h4>
-              <p>Recognised by the Nairobi County Education Board for outstanding results and community impact.</p>
+              <h4>2nd Best School</h4>
+              <p>Awarded a trophy for emerging 2nd best school in by then Langata District in 2013 KCPE</p>
             </div>
           </div>
           <div className="sticker-card reveal" style={{display: 'flex', gap: '1rem', alignItems: 'flex-start'}}>
             <div style={{fontSize: '2.2rem', flexShrink: '0'}}>🎖️</div>
             <div>
-              <h4>CBC Implementation Champion</h4>
-              <p>Commended by KICD for exemplary delivery of the Competency-Based Curriculum.</p>
+              <h4>Top Best Teachers </h4>
+              <p>Our English and Kiswahili teachers were awarded the top best teachers in 2013 KCPE in Langata District.</p>
             </div>
           </div>
           <div className="sticker-card reveal" style={{display: 'flex', gap: '1rem', alignItems: 'flex-start'}}>
             <div style={{fontSize: '2.2rem', flexShrink: '0'}}>⭐</div>
             <div>
-              <h4>Community Excellence Award</h4>
-              <p>Honoured for consistent community service and character-led, faith-based education.</p>
+              <h4>Top Candidates in KCPE</h4>
+              <p>Produced the top candidates in KCPE in Kibra Sub-County in 2016, 2018, 2019 and in 2023</p>
             </div>
           </div>
         </div>
